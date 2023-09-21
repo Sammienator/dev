@@ -1,36 +1,38 @@
-import React from 'react';
+import React,{useEffect} from "react";
+import { FaMailBulk, FaTwitter, FaLinkedin } from 'react-icons/fa';
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto py-12">
-        <div className="flex flex-col md:flex-row justify-between">
-          <div className="mb-8 md:mb-0">
-            <h3 className="text-xl font-bold mb-4">About Us</h3>
-            <p>
-              We are a team of passionate developers creating amazing web experiences and applications.
-            </p>
-          </div>
-          <div className="mb-8 md:mb-0">
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-            <ul>
-              <li className="mb-2"><a href="#b">Home</a></li>
-              <li className="mb-2"><a href="#b">About</a></li>
-              <li className="mb-2"><a href="#b">Services</a></li>
-              <li className="mb-2"><a href="#b">Contact</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-            <p>Email: info@example.com</p>
-            <p>Phone: (123) 456-7890</p>
-          </div>
+    <footer className="bg-gray-900 text-white p-6">
+      <div className="container mx-auto flex flex-wrap justify-between items-center">
+        <div className="flex flex-col items-center">
+          <h2 className="text-lg  font-bold">Samuel Mugo</h2>
+          <p className="text-sm mt-2 max-w-sm mb-8">With a solid foundation in programming languages and a commitment to continuous learning,
+I'm eager to collaborate with experienced developers and contribute to projects that make a meaningful impact.</p>
         </div>
-      </div>
 
-      <div className="bg-gray-800 py-4">
-        <div className="container mx-auto text-center">
-          <p>&copy; 2023 Your Website. All rights reserved.</p>
+        
+        <div className="flex mt-4 lg:mt-0">
+       
+          
+          <a href="https://github.com/Sammienator" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl ">
+            <FaMailBulk />
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl ">
+            <FaTwitter />
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl">
+            <FaLinkedin/>
+          </a>
+        </div>
+        <div className="text-sm">
+          &copy; {new Date().getFullYear()} Samuel Mugo. All rights reserved.
         </div>
       </div>
     </footer>
@@ -38,3 +40,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
