@@ -8,22 +8,22 @@ import 'aos/dist/aos.css';
 
 const projects = [
   {
-    title: 'Shirleys Amazing World',
-    description: 'Personal portfolio Project built with REACT BOOTSTRAP, JSX, JAVASCRIPT',
+    title: 'Shirleys Amazing World.',
+    description: 'Personal portfolio project built with "REACT-BOOTSTRAP, JSX, JAVASCRIPT"',
     imageUrl: 'https://www.mikekasberg.com/images/posts/ultimate-dev-machine-full.jpg', // Replace with your project image URL
     githubUrl: 'https://github.com/Sammienator/shirl',
     liveDemoUrl: 'https://shirleyyy.netlify.app/',
   },
   {
     title: 'The Ultimate Experience.',
-    description: 'An Events an Entertainment Landing page Project built with BOOTSTRAP5, CSS3, AOS Animations',
+    description: 'An events and entertainment landing page project built with "BOOTSTRAP5, CSS3, AOS Animations"',
     imageUrl: 'https://www.popsci.com/uploads/2021/08/26/feliphe-schiarolli-oeHaXN3WiLk-unsplash-scaled.jpg?auto=webp&width=1440&height=957.375', // Replace with your project image URL
     githubUrl: 'https://github.com/Sammienator/gaitho',
     liveDemoUrl: 'https://gaitho.netlify.app/',
   },
   {
     title: 'Building....NOW!',
-    description: 'A Construction and Real Estate Company website Project built with HTML5 CSS3 BOOTSTRAP 5.1 AND AOS ',
+    description: 'A Construction and real estate company website project built with "HTML5 CSS3 BOOTSTRAP 5.1 and AOS" ',
     imageUrl: 'https://cdn.standardmedia.co.ke/images/thursday/xyjfm65hwf9p3h5bd172f16ab96.jpg', // Replace with your project image URL
     githubUrl: 'https://github.com/Sammienator/elite',
     liveDemoUrl: 'https://eliteconstruction.netlify.app/',
@@ -56,10 +56,10 @@ const ProjectSection = () => {
                 <p className="text-gray-700 text-base">{project.description}</p>
               </div>
               <div className="px-6 py-4 flex justify-between">
-                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="text-gray-900 hover:underline">
                   <FaGithub className="mr-1" /> GitHub
                 </a>
-                <a href={project.liveDemoUrl} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+                <a href={project.liveDemoUrl} target="_blank" rel="noopener noreferrer" className="text-gray-900 hover:underline">
                   <FaLink className="mr-1" /> Live Demo
                 </a>
               </div>

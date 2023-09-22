@@ -13,7 +13,7 @@ const About = () => {
   return (
     <section id="about" className="bg-gray-200 py-16">
       <div className="container mx-auto">
-        <h2 data-aos="fade-down"data-aos-easing="ease-in-out" data-aos-delay="700" data-aos-duration="2000" className="text-6xl font-bold text-center mb-8 underline">About Me!</h2>
+        <h2 data-aos="fade-down"data-aos-easing="ease-in-out" data-aos-delay="700" data-aos-duration="2000" className="text-5xl font-bold text-center mb-8 underline">About Me!</h2>
         <div  className="flex flex-col items-center">
           <p data-aos="fade-down"data-aos-easing="ease-in-out" data-aos-delay="1000" data-aos-duration="3000" className="max-w-2xl text-center mb-6">
             Hi! I'm a junior front-end developer passionate about creating web
@@ -49,7 +49,7 @@ const About = () => {
               
             </p>
             
-            <p className=" text-center">I am a self Taught front-end developer. I primarily focus on writing simple, clean, elegant and efficient code . I have just over 3 years of experience as a front-end developer . </p>
+            <p className=" text-center">I am a self taught front-end developer. I primarily focus on writing simple, clean, elegant and efficient code . I have just over 3 years of experience as a front-end developer . </p>
             <p className=" text-center"> As a self taught developer, I have contributed to over a dozen projects and repositories through out my career. I am also able to review existing code as well as help in consultations on how to improve it.</p>
         
             

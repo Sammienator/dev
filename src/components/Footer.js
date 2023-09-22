@@ -21,10 +21,10 @@ I'm eager to collaborate with experienced developers and contribute to projects 
         <div className="flex mt-4 lg:mt-0">
        
           
-          <a href="https://github.com/Sammienator" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl ">
+          <a href="mailto:sammiemugo64@gmail.com" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl ">
             <FaMailBulk />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl ">
+          <a href="https://twitter.com/mugo_samuel1" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl ">
             <FaTwitter />
           </a>
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl">

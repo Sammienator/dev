@@ -12,10 +12,13 @@ const ContactSection = () => {
   return (
     <section id="contact" className="bg-gray-100 py-12">
       <div data-aos="zoom-in-up" data-aos-easing="ease-in-out" data-aos-delay="1000" data-aos-duration="3000" className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-6">Contact Me</h2>
+        <h2 className="text-4xl font-bold text-center mb-6 underline">Contact Me</h2>
+        <p class="mt-4 text-lg text-center md:text-xl mb-8"> I am open for any suggestions, comments and clarifications or just to have a chat!
+
+</p>
 
         <div className="flex flex-col md:flex-row justify-center items-center mb-12">
-          <div className="md:w-1/3 text-center md:text-left mb-4 md:mb-0">
+          <div className="md:w-1/3 text-center md:text-left  md:mb-0 mb-24">
             <h3 className="text-xl font-bold mb-2">Contact Information</h3>
             <div className="flex items-center mb-2">
               <FaPhone className="mr-2" />
@@ -34,11 +37,9 @@ const ContactSection = () => {
           </div>
 
           <div className="md:w-2/3 md:ml-8">
-            <h3 className="text-xl text-center font-bold mb-2">Get in Touch</h3>
-          <p class="mt-4 text-lg text-center md:text-xl mb-2"> I am open for any suggestions, comments and clarifications or just to have a chat!
+            <h3 className="text-xl text-center font-bold ">Get in Touch!</h3>
 
-</p>
-            <form className="flex flex-col mt-16 text-center">
+            <form className="flex flex-col mt-8 text-center">
               <label htmlFor="name" className="mb-2">Your Name</label>
               <input type="text" id="name" className="mb-4 p-2 rounded-lg" />
 
@@ -48,7 +49,7 @@ const ContactSection = () => {
               <label htmlFor="message" className="mb-2">Message</label>
               <textarea id="message" rows="5" className="mb-4 p-2 rounded-lg"></textarea>
 
-              <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-lg">
+              <button type="submit" className="bg-gray-900 hover:bg-blue-600 text-white py-2 rounded-lg">
               Send Your Message
               </button>
             </form>
