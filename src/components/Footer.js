@@ -27,7 +27,7 @@ I'm eager to collaborate with experienced developers and contribute to projects 
           <a href="https://twitter.com/mugo_samuel1" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl ">
             <FaTwitter />
           </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl">
+          <a href="https://www.linkedin.com/in/samuel-mugo-7075201a1/" target="_blank" rel="noopener noreferrer" className="mx-2 text-3xl">
             <FaLinkedin/>
           </a>
         </div>
