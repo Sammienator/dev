@@ -10,7 +10,7 @@ const ContactSection = () => {
     AOS.init();
   }, [])
   return (
-    <section id="contact" className="bg-gray-100 py-12">
+    <section id="contact" className="bg-black py-12 text-white">
       <div data-aos="zoom-in-up" data-aos-easing="ease-in-out" data-aos-delay="1000" data-aos-duration="3000" className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-6 underline">Contact Me</h2>
         <p class="mt-4 text-lg text-center md:text-xl mb-8"> I am open for any suggestions, comments and clarifications or just to have a chat!

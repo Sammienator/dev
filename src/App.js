@@ -16,6 +16,7 @@ function App() {
        <Navbar />
       <Hero/>
       <About/>
+ 
       <ProjectCard/>
       <Contact/>
       <Footer/>

@@ -4,6 +4,8 @@ import { FaMailBulk, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
+
 const Footer = () => {
   useEffect(() => {
     AOS.init();
